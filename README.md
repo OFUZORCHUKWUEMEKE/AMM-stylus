@@ -1,15 +1,23 @@
 # Basic Automated Market Maker built in Stylus
 
+This project is a basic example of an Automated Market Maker. That makes use of the
+Constant Product Formula to manage Liquidity.
 
+This Project has 4 main functions.
+
+- Create Pool (Allows Users to create liquidity pools of two Token Pairs)
+- Add Liquidity (Allows Liquidity providers add Liquidity of two token pairs)
+- Remove Liquidity (Allows liquidity providers remove liqidity from a liquidity pool)
+- Swap (Swap tokens from one to another in a liquidity pool. (With No Fees attached)).
+
+
+This is a basic AMM that shows how the Constant Product Rule works.
 
 ```bash
 cargo stylus export-abi
 ```
 
 which outputs:
-
-
-
 
 
 ```bash
